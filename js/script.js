@@ -83,26 +83,26 @@ function alteraEstado() {
     setFocus();
 }
 
-function verificaEstado() {
-    switch (estado) {
-                case 'SC':
-                    img.srcset = 'skins/images/Bandeira_de_Santa_Catarina.svg';
-                    img.alt = 'Santa Catarina';
-                    break;
+function validaEstado() {
+    // switch (estado) {
+    //     case 'SC':
+    //         img.srcset = 'skins/images/Bandeira_de_Santa_Catarina.svg';
+    //         img.alt = 'Santa Catarina';
+    //         break;
 
-                case 'PR':
-                    img.srcset = 'skins/images/Bandeira_do_Parana.jpg';
-                    img.alt = 'Paraná';
-                    break;
+    //     case 'PR':
+    //         img.srcset = 'skins/images/Bandeira_do_Parana.jpg';
+    //         img.alt = 'Paraná';
+    //         break;
 
-                case 'RS':
-                    img.srcset = 'skins/images/Bandeira_do_Rio_Grande_do_Sul.png';
-                    img.alt = 'Rio Grande do Sul';
-                    break;
+    //     case 'RS':
+    //         img.srcset = 'skins/images/Bandeira_do_Rio_Grande_do_Sul.png';
+    //         img.alt = 'Rio Grande do Sul';
+    //         break;
 
-                default:
-                    break;
-            }
+    //     default:
+    //         break;
+    // }
 }
 
 function setFocus() {
